@@ -68,7 +68,7 @@ FROM DUAL;
 |---------------|
 | 240 |
 
-**Note:** Age in months from birth date (18-MAR-2006) to current date.
+**Note:** Age in months from birth date (27-SEPT-2006) to current date.
 
 ---
 
