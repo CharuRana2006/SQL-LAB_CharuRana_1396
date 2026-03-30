@@ -50,7 +50,7 @@ FROM DUAL;
 |-------------|
 | 7300 |
 
-**Note:** Age calculated from birth date to current date (18-MAR-2006 to 18-MAR-2026).
+**Note:** Age calculated from birth date to current date (27-SEPT-2006 to 18-MAR-2026).
 
 ---
 
@@ -59,7 +59,7 @@ Display your age in months.
 
 ### Query
 ```sql
-SELECT TRUNC(MONTHS_BETWEEN(SYSDATE, TO_DATE('18-MAR-2006', 'DD-MON-YYYY'))) AS AGE_IN_MONTHS
+SELECT TRUNC(MONTHS_BETWEEN(SYSDATE, TO_DATE('27-SEPT-2006', 'DD-MON-YYYY'))) AS AGE_IN_MONTHS
 FROM DUAL;
 ```
 
